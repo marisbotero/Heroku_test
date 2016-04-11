@@ -1,0 +1,28 @@
+<p id="notice"><%= notice %></p>
+<p>
+  
+  <h1><%= @course.name %></h1>
+</p>
+
+<div class="row">
+<div class="col-md-4">
+	<h1><%= @unit.name%></h1>
+</div>
+
+<div class="col-md-8">
+	<%= @unit.content.html_safe %>
+	<%= link_to 'unidades', course_units_path(@course) %> |
+	<%= link_to 'Edit', edit_course_path(@course) %> |
+</div>
+</div>
+  
+
+
+
+
+
+
+
+
+
+

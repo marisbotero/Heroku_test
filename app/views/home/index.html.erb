@@ -1,0 +1,39 @@
+<h1> Wissen Conectando Conocimiento</h1>
+
+
+
+
+
+
+<div>
+<h2>Quienes somos </h2>
+<p>Somos una plataforma educativa y brindamos herramientas de aprendizaje de una forma sencilla y divertida,  para que las personas interesadas en aprender de ciencia y tecnología se apropien de estos conocimientos y contribuyan al desarrollo en temas tecnológicos.</p>
+
+<li>Nuestra filosofía</li>
+<p>Creemos en conocimiento universal y accesible para fomentar la creatividad y el mejoramiento continuo de los procesos formativos.</p>
+
+<li>Hacia dónde vamos </li>
+<p>Nos proyectamos hacia una sociedad de conocimiento donde las nuevas tecnologías hacen parte de las soluciones a las problemáticas actúales del entorno.</p>
+
+
+<h2>Cursos </h2>
+
+<tbody>
+    <% @courses.each do |course| %>
+      <tr>
+        
+        
+        <td><%= link_to course.name, course %></td>
+        
+      </tr>
+    <% end %>
+  </tbody>
+
+
+</div>
+
+<div>
+<h2>Equipo </h2>
+</div>
+
+
